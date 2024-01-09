@@ -106,7 +106,7 @@ gap: 1rem;
     text-align: center;
 }
 .img img:hover{
-    scale: 3;
+    scale: 2;
 }
 @media screen and (max-width:720px) {
     .company{
