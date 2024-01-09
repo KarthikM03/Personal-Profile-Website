@@ -1,0 +1,108 @@
+body{
+    margin: 10px 40px;padding: 0;
+    font-family: cursive;
+    /* background-color: rgb(228, 228, 228); */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;background-color: rgba(192, 192, 192,0.5);
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding-inline-start: 0px;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    margin-top: 2rem;
+    /* background-color: rgba(192, 192, 192,0.5);
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box; */
+}
+.pic > img{
+    height: 95%;
+    width: 100%;
+    background-color: rgba(192, 192, 192,0.5);
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px;
+}.text{
+    position: relative;
+}
+.Bc{
+    margin-right: 1rem;
+    background-color:blueviolet;
+    padding: 5px;
+    color: white;
+}
+.emj{
+    font-size: 30px;
+}
+a{
+    color: black;
+    
+}
+.follow{
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 1rem;
+    font-size: small;
+
+}
+.clients{
+display: grid;
+grid-template-columns: 1fr 2fr;
+gap: 1rem;
+}
+.company{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+    text-decoration: underline 2px;
+}.sp{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.footer{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 2rem;
+}
+.l{
+    margin-left: 1rem;
+}
+.con{
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width:720px) {
+    .company{
+        grid-template-columns: 1fr 1fr;
+    }
+    .body{
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+    }
+    .text{
+        grid-row: 1;
+        margin-bottom: 2rem;
+    }
+   .footer{
+    grid-template-columns: 1fr;
+    /* row-gap: 2rem; */
+   }
+   
+}
