@@ -101,7 +101,6 @@ gap: 1rem;
 }
 .img img{
     height: 150px;
-    /* object-fit: cover; */
     width: auto;
     margin: 10px;
     text-align: center;
