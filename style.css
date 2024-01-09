@@ -87,7 +87,27 @@ gap: 1rem;
     width: 80%;
     margin: auto;
 }
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0px; 
 
+    top: 40%;
+    z-index: 45;
+    background-color:rgb(255, 236, 212);
+}
+.img img{
+    height: 150px;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+}
+.img img:hover{
+    scale: 2;
+}
 @media screen and (max-width:720px) {
     .company{
         grid-template-columns: 1fr 1fr;
